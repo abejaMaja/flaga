@@ -12,12 +12,9 @@ def index():
 def xd():
     text = open('flaga_xd.txt').read()
     return render_template("xd.html", text=text)
-<<<<<<< HEAD
+
     
-=======
 
-
->>>>>>> create xd page
 
 if __name__=="__main__":
     app.run()
